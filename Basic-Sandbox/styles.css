@@ -30,3 +30,12 @@ body {
     height: 50px;
     cursor: pointer;
 }
+
+.box:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.box:hover .icon {
+    fill: #fff;
+}
